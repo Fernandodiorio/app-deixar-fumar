@@ -1,0 +1,79 @@
+import { create } from 'zustand';
+import { supabase } from '@/lib/supabase';
+import { User } from '@/types';
+
+interface AuthState {
+  user: User | null;
+  loading: boolean;
+  signIn: (email: string, password: string) => Promise<void>;
+  signUp: (email: string, password: string, name?: string) => Promise<void>;
+  signOut: () => Promise<void>;
+  initialize: () => void;
+}
+
+export const useAuth = create<AuthState>((set, get) => ({
+  user: null,
+  loading: true,
+
+  signIn: async (email: string, password: string) => {
+    const { data, error } = await supabase.auth.signInWithPassword({
+      email,
+      password,
+    });
+
+    if (error) throw error;
+
+    // Fetch user profile
+    const { data: profile } = await supabase
+      .from('users')
+      .select('*')
+      .eq('id', data.user.id)
+      .single();
+
+    set({ user: profile });
+  },
+
+  signUp: async (email: string, password: string, name?: string) => {
+    const { data, error } = await supabase.auth.signUp({
+      email,
+      password,
+    });
+
+    if (error) throw error;
+
+    // Create user profile
+    const { data: profile } = await supabase
+      .from('users')
+      .insert({
+        id: data.user!.id,
+        email,
+        name,
+        onboarding_completed: false,
+      })
+      .select()
+      .single();
+
+    set({ user: profile });
+  },
+
+  signOut: async () => {
+    await supabase.auth.signOut();
+    set({ user: null });
+  },
+
+  initialize: () => {
+    supabase.auth.onAuthStateChange(async (event, session) => {
+      if (session?.user) {
+        const { data: profile } = await supabase
+          .from('users')
+          .select('*')
+          .eq('id', session.user.id)
+          .single();
+
+        set({ user: profile, loading: false });
+      } else {
+        set({ user: null, loading: false });
+      }
+    });
+  },
+}));
