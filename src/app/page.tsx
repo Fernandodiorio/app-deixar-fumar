@@ -309,7 +309,7 @@ export default function RespiraPT() {
                   </span>
                   <div className="flex items-center gap-2">
                     <button 
-                      onClick={() => setCigarrettesToday(Math.max(0, cigarettesToday - 1))}
+                      onClick={() => setCigarettesToday(Math.max(0, cigarettesToday - 1))}
                       className="w-8 h-8 bg-red-500 hover:bg-red-600 text-white rounded-full flex items-center justify-center transition-colors"
                     >
                       <Minus size={16} />
@@ -318,7 +318,7 @@ export default function RespiraPT() {
                       {cigarettesToday}
                     </span>
                     <button 
-                      onClick={() => setCigarrettesToday(cigarettesToday + 1)}
+                      onClick={() => setCigarettesToday(cigarettesToday + 1)}
                       className="w-8 h-8 bg-red-500 hover:bg-red-600 text-white rounded-full flex items-center justify-center transition-colors"
                     >
                       <Plus size={16} />

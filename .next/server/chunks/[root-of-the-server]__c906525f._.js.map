@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Fernando%20Monteiro/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/icon--route-entry.js"],"sourcesContent":["import { NextResponse } from 'next/server'\n\nconst contentType = \"image/svg+xml\"\nconst cacheControl = \"no-cache, no-store\"\nconst buffer = Buffer.from(\"PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCiAgPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iOCIgZmlsbD0iIzNCODJGNiIvPg0KICA8cGF0aCBkPSJNMTYgOEwyNCAxNkwxNiAyNEw4IDE2TDE2IDhaIiBmaWxsPSJ3aGl0ZSIvPg0KPC9zdmc+\", 'base64')\n\nexport function GET() {\n    return new NextResponse(buffer, {\n        headers: {\n            'Content-Type': contentType,\n            'Cache-Control': cacheControl,\n        },\n    })\n}\n\nexport const dynamic = 'force-static'\n"],"names":[],"mappings":";;;;;;AAAA;;AAEA,MAAM,cAAc;AACpB,MAAM,eAAe;AACrB,MAAM,SAAS,OAAO,IAAI,CAAC,oSAAoS;AAExT,SAAS;IACZ,OAAO,IAAI,4MAAY,CAAC,QAAQ;QAC5B,SAAS;YACL,gBAAgB;YAChB,iBAAiB;QACrB;IACJ;AACJ;AAEO,MAAM,UAAU","debugId":null}}]
+}

@@ -1,3 +1,6 @@
+// Note: Types are defined here for backward compatibility
+// types/index.ts contains the full type definitions
+
 export interface User {
   id: string;
   email: string;
@@ -5,15 +8,20 @@ export interface User {
   onboarding_completed: boolean;
   created_at?: string;
   updated_at?: string;
+  cigarettes_per_day?: number;
+  goal?: 'stop' | 'reduce';
+  method?: string;
+  premium?: boolean;
 }
 
 export interface AuthState {
   user: User | null;
   loading: boolean;
+  initialized: boolean;
   signIn: (email: string, password: string) => Promise<void>;
   signUp: (email: string, password: string, name?: string) => Promise<void>;
   signOut: () => Promise<void>;
-  initialize: () => void;
+  initialize: () => Promise<void>;
 }
 
 export interface Task {

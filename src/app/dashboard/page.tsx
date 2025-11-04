@@ -25,42 +25,60 @@ export default function DashboardPage() {
 
   useEffect(() => {
     if (user) {
-      fetchTasks();
-      fetchProgress();
+      fetchTasks().catch(console.error);
+      fetchProgress().catch(console.error);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user]);
 
   const fetchTasks = async () => {
-    const { data } = await supabase
-      .from('tasks')
-      .select('*')
-      .eq('user_id', user!.id)
-      .eq('completed', false)
-      .limit(5);
+    try {
+      const { data, error } = await supabase
+        .from('tasks')
+        .select('*')
+        .eq('user_id', user!.id)
+        .eq('completed', false)
+        .limit(5);
 
-    setTasks(data || []);
+      if (error) throw error;
+      setTasks(data || []);
+    } catch (error) {
+      console.error('Error fetching tasks:', error);
+      setTasks([]);
+    }
   };
 
   const fetchProgress = async () => {
-    const today = new Date().toISOString().split('T')[0];
-    const { data } = await supabase
-      .from('progress')
-      .select('*')
-      .eq('user_id', user!.id)
-      .eq('date', today)
-      .single();
+    try {
+      const today = new Date().toISOString().split('T')[0];
+      const { data, error } = await supabase
+        .from('progress')
+        .select('*')
+        .eq('user_id', user!.id)
+        .eq('date', today)
+        .single();
 
-    setProgress(data);
+      if (error && error.code !== 'PGRST116') throw error; // PGRST116 = no rows returned
+      setProgress(data || null);
+    } catch (error) {
+      console.error('Error fetching progress:', error);
+      setProgress(null);
+    }
   };
 
   const completeTask = async (taskId: string) => {
-    await supabase
-      .from('tasks')
-      .update({ completed: true, completed_at: new Date().toISOString() })
-      .eq('id', taskId);
+    try {
+      const { error } = await supabase
+        .from('tasks')
+        .update({ completed: true, completed_at: new Date().toISOString() })
+        .eq('id', taskId);
 
-    fetchTasks();
-    fetchProgress();
+      if (error) throw error;
+      await fetchTasks();
+      await fetchProgress();
+    } catch (error) {
+      console.error('Error completing task:', error);
+    }
   };
 
   if (loading) {
@@ -95,7 +113,12 @@ export default function DashboardPage() {
               <Cigarette className="h-4 w-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">{progress?.cigarettes_smoked || 0}</div>
+              <div className="text-2xl font-bold">
+                {progress?.cigarettes_smoked !== undefined 
+                  ? Math.max(0, (user?.cigarettes_per_day || 0) - (progress.cigarettes_smoked || 0))
+                  : user?.cigarettes_per_day || 0
+                }
+              </div>
             </CardContent>
           </Card>
 

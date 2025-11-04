@@ -30,17 +30,28 @@ export default function OnboardingPage() {
   const handleComplete = async () => {
     if (!user) return;
 
-    await supabase
-      .from('users')
-      .update({
-        cigarettes_per_day: parseInt(cigarettesPerDay),
-        goal,
-        method,
-        onboarding_completed: true,
-      })
-      .eq('id', user.id);
+    if (!cigarettesPerDay || parseInt(cigarettesPerDay) <= 0) {
+      alert('Por favor, insira um número válido de cigarros por dia.');
+      return;
+    }
 
-    router.push('/dashboard');
+    try {
+      const { error } = await supabase
+        .from('users')
+        .update({
+          cigarettes_per_day: parseInt(cigarettesPerDay),
+          goal,
+          method,
+          onboarding_completed: true,
+        })
+        .eq('id', user.id);
+
+      if (error) throw error;
+      router.push('/dashboard');
+    } catch (error: any) {
+      console.error('Error completing onboarding:', error);
+      alert('Erro ao completar o onboarding. Por favor, tente novamente.');
+    }
   };
 
   const renderStep = () => {

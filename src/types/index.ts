@@ -5,10 +5,10 @@ export interface User {
   created_at: string;
   updated_at: string;
   onboarding_completed: boolean;
-  cigarettes_per_day: number;
-  goal: 'stop' | 'reduce';
-  method: string;
-  premium: boolean;
+  cigarettes_per_day?: number;
+  goal?: 'stop' | 'reduce';
+  method?: string;
+  premium?: boolean;
 }
 
 export interface Task {
