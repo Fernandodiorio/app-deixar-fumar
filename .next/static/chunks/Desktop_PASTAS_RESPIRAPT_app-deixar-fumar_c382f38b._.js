@@ -110,7 +110,7 @@ function RespiraPT() {
             size: 20
         }, void 0, false, {
             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-            lineNumber: 122,
+            lineNumber: 124,
             columnNumber: 12
         }, this);
     };
@@ -137,7 +137,7 @@ function RespiraPT() {
                             children: "RespiraPT"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                            lineNumber: 143,
+                            lineNumber: 145,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -145,13 +145,13 @@ function RespiraPT() {
                             children: "A sua jornada para uma vida sem tabaco"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                            lineNumber: 146,
+                            lineNumber: 148,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                    lineNumber: 142,
+                    lineNumber: 144,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -168,7 +168,7 @@ function RespiraPT() {
                                             size: 24
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 155,
+                                            lineNumber: 157,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -176,13 +176,13 @@ function RespiraPT() {
                                             children: userStats.daysWithoutSmoking
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 156,
+                                            lineNumber: 158,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                    lineNumber: 154,
+                                    lineNumber: 156,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -190,13 +190,13 @@ function RespiraPT() {
                                     children: "Dias sem fumar"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                    lineNumber: 160,
+                                    lineNumber: 162,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                            lineNumber: 153,
+                            lineNumber: 155,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -210,7 +210,7 @@ function RespiraPT() {
                                             size: 24
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 165,
+                                            lineNumber: 167,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -218,13 +218,13 @@ function RespiraPT() {
                                             children: userStats.cigarettesAvoided
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 166,
+                                            lineNumber: 168,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                    lineNumber: 164,
+                                    lineNumber: 166,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -232,13 +232,13 @@ function RespiraPT() {
                                     children: "Cigarros evitados"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                    lineNumber: 170,
+                                    lineNumber: 172,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                            lineNumber: 163,
+                            lineNumber: 165,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -252,7 +252,7 @@ function RespiraPT() {
                                             size: 24
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 175,
+                                            lineNumber: 177,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -263,13 +263,13 @@ function RespiraPT() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 176,
+                                            lineNumber: 178,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                    lineNumber: 174,
+                                    lineNumber: 176,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -277,13 +277,13 @@ function RespiraPT() {
                                     children: "Euros poupados"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                    lineNumber: 180,
+                                    lineNumber: 182,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                            lineNumber: 173,
+                            lineNumber: 175,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -297,7 +297,7 @@ function RespiraPT() {
                                             size: 24
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 185,
+                                            lineNumber: 187,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -308,13 +308,13 @@ function RespiraPT() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 186,
+                                            lineNumber: 188,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                    lineNumber: 184,
+                                    lineNumber: 186,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -322,19 +322,19 @@ function RespiraPT() {
                                     children: "Vida recuperada"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                    lineNumber: 190,
+                                    lineNumber: 192,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                            lineNumber: 183,
+                            lineNumber: 185,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                    lineNumber: 152,
+                    lineNumber: 154,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -351,7 +351,7 @@ function RespiraPT() {
                                             children: "Tarefas de Hoje"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 199,
+                                            lineNumber: 201,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -367,23 +367,23 @@ function RespiraPT() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                    lineNumber: 204,
+                                                    lineNumber: 206,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                lineNumber: 203,
+                                                lineNumber: 205,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 202,
+                                            lineNumber: 204,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                    lineNumber: 198,
+                                    lineNumber: 200,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -396,7 +396,7 @@ function RespiraPT() {
                                                     children: "Progresso diário"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                    lineNumber: 214,
+                                                    lineNumber: 216,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -406,13 +406,13 @@ function RespiraPT() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                    lineNumber: 215,
+                                                    lineNumber: 217,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 213,
+                                            lineNumber: 215,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -424,18 +424,18 @@ function RespiraPT() {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                lineNumber: 218,
+                                                lineNumber: 220,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 217,
+                                            lineNumber: 219,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                    lineNumber: 212,
+                                    lineNumber: 214,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -450,12 +450,12 @@ function RespiraPT() {
                                                         size: 20
                                                     }, void 0, false, {
                                                         fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                        lineNumber: 242,
+                                                        lineNumber: 244,
                                                         columnNumber: 39
                                                     }, this) : getIconComponent(task.icon)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                    lineNumber: 237,
+                                                    lineNumber: 239,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -466,7 +466,7 @@ function RespiraPT() {
                                                             children: task.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                            lineNumber: 246,
+                                                            lineNumber: 248,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -474,13 +474,13 @@ function RespiraPT() {
                                                             children: task.description
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                            lineNumber: 253,
+                                                            lineNumber: 255,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                    lineNumber: 245,
+                                                    lineNumber: 247,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -490,31 +490,31 @@ function RespiraPT() {
                                                             size: 12
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                            lineNumber: 263,
+                                                            lineNumber: 265,
                                                             columnNumber: 21
                                                         }, this),
                                                         task.points
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                    lineNumber: 258,
+                                                    lineNumber: 260,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, task.id, true, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 228,
+                                            lineNumber: 230,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                    lineNumber: 226,
+                                    lineNumber: 228,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                            lineNumber: 197,
+                            lineNumber: 199,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -535,12 +535,12 @@ function RespiraPT() {
                                                                 size: 24
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                                lineNumber: 279,
+                                                                lineNumber: 281,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                            lineNumber: 278,
+                                                            lineNumber: 280,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -553,7 +553,7 @@ function RespiraPT() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                                    lineNumber: 282,
+                                                                    lineNumber: 284,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -561,19 +561,19 @@ function RespiraPT() {
                                                                     children: "Guerreiro da Saúde"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                                    lineNumber: 283,
+                                                                    lineNumber: 285,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                            lineNumber: 281,
+                                                            lineNumber: 283,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                    lineNumber: 277,
+                                                    lineNumber: 279,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -584,7 +584,7 @@ function RespiraPT() {
                                                             children: userStats.totalPoints
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                            lineNumber: 287,
+                                                            lineNumber: 289,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -592,19 +592,19 @@ function RespiraPT() {
                                                             children: "pontos"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                            lineNumber: 288,
+                                                            lineNumber: 290,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                    lineNumber: 286,
+                                                    lineNumber: 288,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 276,
+                                            lineNumber: 278,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -615,7 +615,7 @@ function RespiraPT() {
                                                     size: 16
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                    lineNumber: 293,
+                                                    lineNumber: 295,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -627,19 +627,19 @@ function RespiraPT() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                    lineNumber: 294,
+                                                    lineNumber: 296,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 292,
+                                            lineNumber: 294,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                    lineNumber: 275,
+                                    lineNumber: 277,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -650,7 +650,7 @@ function RespiraPT() {
                                             children: "Ações Rápidas"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 300,
+                                            lineNumber: 302,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -664,7 +664,7 @@ function RespiraPT() {
                                                             children: "Cigarros hoje"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                            lineNumber: 307,
+                                                            lineNumber: 309,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -677,12 +677,12 @@ function RespiraPT() {
                                                                         size: 16
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                                        lineNumber: 315,
+                                                                        lineNumber: 317,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                                    lineNumber: 311,
+                                                                    lineNumber: 313,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -690,7 +690,7 @@ function RespiraPT() {
                                                                     children: cigarettesToday
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                                    lineNumber: 317,
+                                                                    lineNumber: 319,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -700,24 +700,24 @@ function RespiraPT() {
                                                                         size: 16
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                                        lineNumber: 324,
+                                                                        lineNumber: 326,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                                    lineNumber: 320,
+                                                                    lineNumber: 322,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                            lineNumber: 310,
+                                                            lineNumber: 312,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                    lineNumber: 306,
+                                                    lineNumber: 308,
                                                     columnNumber: 17
                                                 }, this),
                                                 cigarettesToday === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -725,13 +725,13 @@ function RespiraPT() {
                                                     children: "🎉 Excelente! Zero cigarros hoje!"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                    lineNumber: 329,
+                                                    lineNumber: 331,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 305,
+                                            lineNumber: 307,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -740,7 +740,7 @@ function RespiraPT() {
                                             children: showCravingHelp ? 'Fechar Ajuda' : 'Tenho Vontade de Fumar!'
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 336,
+                                            lineNumber: 338,
                                             columnNumber: 15
                                         }, this),
                                         showCravingHelp && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -751,7 +751,7 @@ function RespiraPT() {
                                                     children: "Experimente uma destas técnicas:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                    lineNumber: 345,
+                                                    lineNumber: 347,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -763,31 +763,31 @@ function RespiraPT() {
                                                                     size: 16
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                                    lineNumber: 351,
+                                                                    lineNumber: 353,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 tip
                                                             ]
                                                         }, index, true, {
                                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                            lineNumber: 350,
+                                                            lineNumber: 352,
                                                             columnNumber: 23
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                    lineNumber: 348,
+                                                    lineNumber: 350,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 344,
+                                            lineNumber: 346,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                    lineNumber: 299,
+                                    lineNumber: 301,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -801,7 +801,7 @@ function RespiraPT() {
                                                     size: 24
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                    lineNumber: 363,
+                                                    lineNumber: 365,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -809,13 +809,13 @@ function RespiraPT() {
                                                     children: "Mensagem do Dia"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                                    lineNumber: 364,
+                                                    lineNumber: 366,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 362,
+                                            lineNumber: 364,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -829,25 +829,25 @@ function RespiraPT() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 366,
+                                            lineNumber: 368,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                    lineNumber: 361,
+                                    lineNumber: 363,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                            lineNumber: 272,
+                            lineNumber: 274,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                    lineNumber: 194,
+                    lineNumber: 196,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -861,7 +861,7 @@ function RespiraPT() {
                                     children: "Comunidade RespiraPT"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                    lineNumber: 378,
+                                    lineNumber: 380,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
@@ -869,13 +869,13 @@ function RespiraPT() {
                                     size: 24
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                    lineNumber: 381,
+                                    lineNumber: 383,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                            lineNumber: 377,
+                            lineNumber: 379,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -889,7 +889,7 @@ function RespiraPT() {
                                             children: "1.247"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 386,
+                                            lineNumber: 388,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -897,13 +897,13 @@ function RespiraPT() {
                                             children: "Membros ativos"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 387,
+                                            lineNumber: 389,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                    lineNumber: 385,
+                                    lineNumber: 387,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -914,7 +914,7 @@ function RespiraPT() {
                                             children: "89%"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 390,
+                                            lineNumber: 392,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -922,13 +922,13 @@ function RespiraPT() {
                                             children: "Taxa de sucesso"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 391,
+                                            lineNumber: 393,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                    lineNumber: 389,
+                                    lineNumber: 391,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -939,7 +939,7 @@ function RespiraPT() {
                                             children: "24/7"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 394,
+                                            lineNumber: 396,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -947,36 +947,36 @@ function RespiraPT() {
                                             children: "Apoio disponível"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                            lineNumber: 395,
+                                            lineNumber: 397,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                                    lineNumber: 393,
+                                    lineNumber: 395,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                            lineNumber: 384,
+                            lineNumber: 386,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-                    lineNumber: 376,
+                    lineNumber: 378,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-            lineNumber: 139,
+            lineNumber: 141,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/src/app/page.tsx",
-        lineNumber: 138,
+        lineNumber: 140,
         columnNumber: 5
     }, this);
 }

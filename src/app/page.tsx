@@ -1,6 +1,8 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { useRouter } from 'next/navigation'
+import { useAuth } from '@/hooks/useAuth'
 import { 
   Heart, 
   TrendingUp, 
@@ -42,6 +44,24 @@ interface UserStats {
 }
 
 export default function RespiraPT() {
+  const { user, loading } = useAuth()
+  const router = useRouter()
+
+  // Redirect se não estiver autenticado
+  useEffect(() => {
+    if (!loading && !user) {
+      router.push('/auth/login')
+    } else if (!loading && user) {
+      // Se o usuário não completou o onboarding, redirecionar
+      if (!user.onboarding_completed) {
+        router.push('/onboarding')
+      } else {
+        // Se já completou, redirecionar para o dashboard
+        router.push('/dashboard')
+      }
+    }
+  }, [user, loading, router])
+
   const [userStats, setUserStats] = useState<UserStats>({
     daysWithoutSmoking: 7,
     cigarettesAvoided: 140,
@@ -89,6 +109,23 @@ export default function RespiraPT() {
 
   const [cigarettesToday, setCigarettesToday] = useState(0)
   const [showCravingHelp, setShowCravingHelp] = useState(false)
+
+  // Mostrar loading enquanto verifica autenticação
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-teal-50 via-cyan-50 to-blue-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+        <div className="text-center">
+          <div className="w-16 h-16 border-4 border-teal-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+          <p className="text-gray-600 dark:text-gray-300">A carregar...</p>
+        </div>
+      </div>
+    )
+  }
+
+  // Não renderizar nada enquanto redireciona
+  if (!user) {
+    return null
+  }
 
   const toggleTask = (taskId: string) => {
     setDailyTasks(prev => prev.map(task => {

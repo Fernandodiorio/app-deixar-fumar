@@ -39,16 +39,11 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f40$supabase$2f$supabase$2d$js$2f$dist$2f$module$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/Desktop/PASTAS/RESPIRAPT/app-deixar-fumar/node_modules/@supabase/supabase-js/dist/module/index.js [app-client] (ecmascript) <locals>");
 ;
-const supabaseUrl = __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_SUPABASE_URL || __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_SUPABASE_URL;
-const supabaseAnonKey = __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_SUPABASE_ANON_KEY || __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-// Valores hardcoded temporariamente para debug - REMOVER DEPOIS
-const SUPABASE_URL = 'https://ggaixybbdvkrbsdhxhlb.supabase.co';
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdnYWl4eWJiZHZrcmJzZGh4aGxiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIyNDIzOTAsImV4cCI6MjA3NzgxODM5MH0.6bOeHvdREPTBYR6VDyw8H_TXXJehdksfDQe9TmwkpZw';
-const finalUrl = supabaseUrl || SUPABASE_URL;
-const finalKey = supabaseAnonKey || SUPABASE_ANON_KEY;
+const supabaseUrl = ("TURBOPACK compile-time value", "https://ggaixybbdvkrbsdhxhlb.supabase.co");
+const supabaseAnonKey = ("TURBOPACK compile-time value", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdnYWl4eWJiZHZrcmJzZGh4aGxiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIyNDIzOTAsImV4cCI6MjA3NzgxODM5MH0.6bOeHvdREPTBYR6VDyw8H_TXXJehdksfDQe9TmwkpZw");
 if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
 ;
-const supabase = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f40$supabase$2f$supabase$2d$js$2f$dist$2f$module$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["createClient"])(finalUrl, finalKey);
+const supabase = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$node_modules$2f40$supabase$2f$supabase$2d$js$2f$dist$2f$module$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["createClient"])(supabaseUrl, supabaseAnonKey);
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
@@ -75,33 +70,96 @@ const useAuth = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$P
             });
             if (error) throw error;
             // Fetch user profile
-            const { data: profile } = await __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$src$2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["supabase"].from('users').select('*').eq('id', data.user.id).single();
+            let { data: profile } = await __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$src$2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["supabase"].from('users').select('*').eq('id', data.user.id).single();
+            // Se o perfil não existe, criar agora
+            if (!profile) {
+                var _data_user_user_metadata;
+                const { data: newProfile, error: createError } = await __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$src$2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["supabase"].from('users').insert({
+                    id: data.user.id,
+                    email: email,
+                    name: ((_data_user_user_metadata = data.user.user_metadata) === null || _data_user_user_metadata === void 0 ? void 0 : _data_user_user_metadata.name) || null,
+                    onboarding_completed: false
+                }).select().single();
+                if (!createError && newProfile) {
+                    profile = newProfile;
+                }
+            }
             set({
                 user: profile || null
             });
         },
         signUp: async (email, password, name)=>{
-            const { data, error } = await __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$src$2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["supabase"].auth.signUp({
+            // Criar usuário no Supabase Auth
+            const { data: authData, error: authError } = await __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$src$2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["supabase"].auth.signUp({
                 email,
-                password
+                password,
+                options: {
+                    data: {
+                        name: name || null
+                    }
+                }
             });
-            if (error) throw error;
-            // Create user profile
-            if (data.user) {
-                const { data: profile, error: profileError } = await __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$src$2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["supabase"].from('users').insert({
-                    id: data.user.id,
-                    email,
-                    name,
+            if (authError) throw authError;
+            if (!authData.user) {
+                throw new Error('Failed to create user');
+            }
+            // Aguardar para garantir que a sessão está estabelecida e o trigger executou
+            await new Promise((resolve)=>setTimeout(resolve, 1500));
+            // Verificar se a sessão está ativa
+            const { data: { session } } = await __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$src$2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["supabase"].auth.getSession();
+            if (!session) {
+                // Se não há sessão, aguardar mais um pouco
+                await new Promise((resolve)=>setTimeout(resolve, 1000));
+            }
+            // Tentar buscar o perfil (trigger deve ter criado)
+            let profile = null;
+            // Tentar buscar várias vezes com delay crescente
+            for(let attempt = 0; attempt < 5; attempt++){
+                const { data: fetchedProfile, error: fetchError } = await __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$src$2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["supabase"].from('users').select('*').eq('id', authData.user.id).maybeSingle();
+                if (fetchedProfile && !fetchError) {
+                    profile = fetchedProfile;
+                    break;
+                }
+                // Se ainda não encontrou, aguardar antes de tentar criar manualmente
+                if (attempt < 4) {
+                    await new Promise((resolve)=>setTimeout(resolve, 500 * (attempt + 1)));
+                }
+            }
+            // Se ainda não encontrou, tentar criar manualmente
+            if (!profile) {
+                const { data: newProfile, error: createError } = await __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$src$2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["supabase"].from('users').insert({
+                    id: authData.user.id,
+                    email: email,
+                    name: name || null,
                     onboarding_completed: false
                 }).select().single();
-                if (profileError) {
-                    console.error('Error creating user profile:', profileError);
-                    throw profileError;
+                if (createError) {
+                    // Se der erro de conflito ou RLS, o trigger deve ter criado
+                    // Tentar buscar uma última vez
+                    if (createError.code === '23505' || createError.code === '42501') {
+                        await new Promise((resolve)=>setTimeout(resolve, 1000));
+                        const { data: finalProfile } = await __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$src$2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["supabase"].from('users').select('*').eq('id', authData.user.id).maybeSingle();
+                        if (finalProfile) {
+                            profile = finalProfile;
+                        }
+                    }
+                    // Se ainda não tem perfil, criar um objeto temporário
+                    // O perfil será criado no onboarding ou no primeiro login
+                    if (!profile) {
+                        profile = {
+                            id: authData.user.id,
+                            email: email,
+                            name: name || null,
+                            onboarding_completed: false
+                        };
+                    }
+                } else {
+                    profile = newProfile;
                 }
-                set({
-                    user: profile || null
-                });
             }
+            set({
+                user: profile
+            });
         },
         signOut: async ()=>{
             await __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$src$2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["supabase"].auth.signOut();
@@ -118,7 +176,20 @@ const useAuth = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$P
             // Check current session first
             const { data: { session } } = await __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$src$2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["supabase"].auth.getSession();
             if (session === null || session === void 0 ? void 0 : session.user) {
-                const { data: profile } = await __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$src$2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["supabase"].from('users').select('*').eq('id', session.user.id).single();
+                let { data: profile } = await __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$src$2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["supabase"].from('users').select('*').eq('id', session.user.id).maybeSingle();
+                // Se o perfil não existe, criar agora
+                if (!profile) {
+                    var _session_user_user_metadata;
+                    const { data: newProfile, error: createError } = await __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$src$2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["supabase"].from('users').insert({
+                        id: session.user.id,
+                        email: session.user.email || '',
+                        name: ((_session_user_user_metadata = session.user.user_metadata) === null || _session_user_user_metadata === void 0 ? void 0 : _session_user_user_metadata.name) || null,
+                        onboarding_completed: false
+                    }).select().single();
+                    if (!createError && newProfile) {
+                        profile = newProfile;
+                    }
+                }
                 set({
                     user: profile || null,
                     loading: false
@@ -132,7 +203,20 @@ const useAuth = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$P
             // Listen for auth changes
             __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$src$2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["supabase"].auth.onAuthStateChange(async (event, session)=>{
                 if (session === null || session === void 0 ? void 0 : session.user) {
-                    const { data: profile } = await __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$src$2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["supabase"].from('users').select('*').eq('id', session.user.id).single();
+                    let { data: profile } = await __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$src$2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["supabase"].from('users').select('*').eq('id', session.user.id).maybeSingle();
+                    // Se o perfil não existe, criar agora
+                    if (!profile) {
+                        var _session_user_user_metadata;
+                        const { data: newProfile, error: createError } = await __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$src$2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["supabase"].from('users').insert({
+                            id: session.user.id,
+                            email: session.user.email || '',
+                            name: ((_session_user_user_metadata = session.user.user_metadata) === null || _session_user_user_metadata === void 0 ? void 0 : _session_user_user_metadata.name) || null,
+                            onboarding_completed: false
+                        }).select().single();
+                        if (!createError && newProfile) {
+                            profile = newProfile;
+                        }
+                    }
                     set({
                         user: profile || null,
                         loading: false
@@ -144,6 +228,17 @@ const useAuth = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$P
                     });
                 }
             });
+        },
+        refreshUser: async ()=>{
+            const { data: { session } } = await __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$src$2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["supabase"].auth.getSession();
+            if (session === null || session === void 0 ? void 0 : session.user) {
+                const { data: profile } = await __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$PASTAS$2f$RESPIRAPT$2f$app$2d$deixar$2d$fumar$2f$src$2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["supabase"].from('users').select('*').eq('id', session.user.id).maybeSingle();
+                if (profile) {
+                    set({
+                        user: profile
+                    });
+                }
+            }
         }
     }));
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {

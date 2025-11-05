@@ -1,0 +1,25 @@
+{
+  "pages": {
+    "/dashboard/page": [
+      "static/chunks/16ed9_next_dist_970bbbd5._.js",
+      "static/chunks/Desktop_PASTAS_RESPIRAPT_app-deixar-fumar_src_app_icon_svg_mjs_682398e2._.js",
+      "static/chunks/[root-of-the-server]__d21b63df._.css",
+      "static/chunks/16ed9_@supabase_node-fetch_browser_7319026f.js",
+      "static/chunks/16ed9_5a2bb6fe._.js",
+      "static/chunks/Desktop_PASTAS_RESPIRAPT_app-deixar-fumar_src_e1fdd801._.js",
+      "static/chunks/Desktop_PASTAS_RESPIRAPT_app-deixar-fumar_src_app_layout_tsx_8aad52d9._.js",
+      "static/chunks/16ed9_next_dist_client_components_builtin_global-error_dfd15517.js",
+      "static/chunks/Desktop_PASTAS_RESPIRAPT_app-deixar-fumar_6b0baca6._.js",
+      "static/chunks/Desktop_PASTAS_RESPIRAPT_app-deixar-fumar_src_app_dashboard_page_tsx_dfd15517._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_2ef754db._.js",
+      "static/chunks/16ed9_next_dist_compiled_react-dom_06057e30._.js",
+      "static/chunks/16ed9_next_dist_compiled_next-devtools_index_50cb2bb7.js",
+      "static/chunks/16ed9_next_dist_compiled_eacd7826._.js",
+      "static/chunks/16ed9_next_dist_client_c2bd627f._.js",
+      "static/chunks/16ed9_next_dist_d613628a._.js",
+      "static/chunks/16ed9_@swc_helpers_cjs_7e7ff2b7._.js",
+      "static/chunks/Desktop_PASTAS_RESPIRAPT_app-deixar-fumar_a0ff3932._.js",
+      "static/chunks/turbopack-Desktop_PASTAS_RESPIRAPT_app-deixar-fumar_f1900423._.js"
+    ]
+  }
+}
