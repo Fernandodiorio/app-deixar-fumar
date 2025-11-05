@@ -15,6 +15,8 @@ export const metadata: Metadata = {
   description: 'A sua jornada para uma vida sem tabaco',
 }
 
+// Layout fix: removed suppressHydrationWarning prop
+
 export default function RootLayout({
   children,
 }: {
